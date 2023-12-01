@@ -64,7 +64,7 @@ public class TecnicoVista {
         controlador.mostrarDatos(tecnicos.get(idTecnico));
     }
 
-    public void mostrarListadoTecnicos() {
+    public void vistaListadoTecnicos() {
         for(int i = 0; i <= tecnicos.size(); i++) {
             controlador.mostrarDatos(tecnicos.get(i));
         }

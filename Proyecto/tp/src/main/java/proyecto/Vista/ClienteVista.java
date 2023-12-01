@@ -61,7 +61,7 @@ public class ClienteVista {
         controlador.mostrarDatos(clientes.get(cuitCliente));
     }
 
-    public void vistaListarClientes() {
+    public void vistaListadoClientes() {
         for(int i = 0; i <= clientes.size(); i++) {
             controlador.mostrarDatos(clientes.get(i));
         }

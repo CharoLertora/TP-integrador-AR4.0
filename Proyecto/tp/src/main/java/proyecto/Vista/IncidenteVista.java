@@ -57,7 +57,7 @@ public class IncidenteVista {
         controlador.mostrarDatos(incidentes.get(idIncidente));
     }
 
-    public void vistaListarIncidentes() {
+    public void vistaListadoIncidentes() {
         for(int i = 0; i < incidentes.size(); i++) {
             controlador.mostrarDatos(incidentes.get(i));
         }

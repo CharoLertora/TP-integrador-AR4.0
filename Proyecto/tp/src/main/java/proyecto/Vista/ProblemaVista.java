@@ -67,7 +67,7 @@ public class ProblemaVista {
         controlador.mostrarDatos(problemas.get(idProblema));
     }
 
-    public void vistaListarProblemas() {
+    public void vistaListadoProblemas() {
         for(int i = 0; i <= problemas.size(); i++) {
             controlador.mostrarDatos(problemas.get(i));
         }
