@@ -9,6 +9,6 @@ import jakarta.persistence.*;
 public class TecnicoControlador {
 
     public String CrearTecnico(String nombre, String Apellido) {
-        SessionFactory
+        SessionFactory sessionFactory = new Configuration().configure("hibernate.cfg.xml")
     }
 }
