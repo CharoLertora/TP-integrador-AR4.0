@@ -4,4 +4,5 @@ El mismo está realizado en un proyecto Maven con lenguaje Java, con la arquitec
 
 ## Aclaraciones:
 La carpeta "proyecto-eclipse" tiene una versión vieja del proyecto en la cuál intentaba hacer la conexión con Hibernate, en ese proyecto tengo errores a la hora de generar la conexión debido a las dependencias (quiero solucionarlo).
+
 La carpeta "Proyecto" es la que contiene el CRUD del sistema. Utilizando la arquitectura MVC como se solicitaba.
